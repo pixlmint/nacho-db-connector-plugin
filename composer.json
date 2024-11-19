@@ -1,0 +1,14 @@
+{
+  "name": "pixlmint/nacho-db-connector-plugin",
+  "description": "A database connection plugin for the nacho php framework",
+  "require": {
+    "ext-json":  "*",
+    "pixlmint/nacho": "*"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Nacho\\DbConnector\\": "src/"
+    }
+  }
+}
